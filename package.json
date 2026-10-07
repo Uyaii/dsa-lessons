@@ -1,0 +1,15 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Uyai",
+  "type": "module",
+  "main": "oop.js",
+  "scripts": {
+    "dev": "nodemon ./oop.js"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
