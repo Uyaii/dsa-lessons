@@ -74,8 +74,12 @@ class MyArray {
   }
   shift() {
     let firstItem = this.data[0];
+    for (let i = 0; i < this.length; i++) {
+      // const element = array[i];
+    }
     delete this.data[0];
     this.length--;
+
     return firstItem;
   }
 }
@@ -90,5 +94,5 @@ NewArray.push("catfish");
 console.log(NewArray);
 
 console.log(NewArray.length);
-console.log(NewArray.shift());
+// console.log(NewArray.shift());
 console.log(NewArray);
